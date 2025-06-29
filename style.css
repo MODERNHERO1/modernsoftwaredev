@@ -1849,11 +1849,11 @@ input {
     }
 
     .register-menu {
-        margin-left: 30px;
+        margin: 0px 10px 0px 10px;
     }  
 
     .login-btnfbs, .login-btn{
-        height: 30px;
+        height: 25px;
         margin: 20px 20px 0px 0px;
     }
 
@@ -1910,8 +1910,9 @@ input {
         align-items: center;
         justify-content: center;
         display: flex;
-        width: 500px;
+        max-width: 500px;
         margin-top: 60px;
+        width: 100%;
         
     }
 
@@ -1926,6 +1927,7 @@ input {
         flex-direction: column;
         display: flex;
         align-items: center;
+        margin: 0 auto;
     }
 
     .home-image img {
@@ -1972,7 +1974,8 @@ input {
     .about-img img {
         height: 300px;
         width: 300px; 
-        margin: 100px 50px 0px 40px;
+        display: block;
+        margin: 60px auto 0 auto;
     }
 
     .about-text h2{
@@ -2000,10 +2003,11 @@ input {
 
 
     #services{
-        color:aliceblue;
-        font-size: 40px;
-        line-height: 1.4;
-        margin-bottom: 60px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+        margin: 0 auto;
+        
     }
 
     .sub-title{
