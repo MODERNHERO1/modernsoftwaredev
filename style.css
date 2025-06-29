@@ -1635,9 +1635,10 @@ input {
     .home {
         width: 500px;
         padding: 100px 20px;
-        flex-direction: column;
+        flex-direction: row-reverse;
         display: flex;
         align-items: center;
+        height: 100%;
     }
 
     .home-image img {
@@ -1823,18 +1824,18 @@ input {
 
 
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 360px) { 
     .navbar {
         height: 15vh;
     }
 
     .topbar a {
-        margin: 0px 40px;
+        margin: 0px 10px;
     }
 
     .site-title img {
         display: none;
-        margin: 9px 0px 0px 30px;
+        margin: 9px 10px 0px 10px;
         height: 25px;
         width: 22px;
         border-radius: 100%;
@@ -1843,7 +1844,7 @@ input {
     }
 
     .logo {
-        font-size: 30px;
+        font-size: 20px;
         margin: 10px 0px 30px 0px;
     }
 
@@ -1857,8 +1858,8 @@ input {
     }
 
     .register-btnfbs, .register-btn {
-        height: 30px;
-        margin-top: 20px;
+        height: 25px;
+        margin: 20px 10px 0px 0px;
     } 
 
     .small-device {
@@ -1890,7 +1891,7 @@ input {
     .menu-button div {
         height: 4px;
         width: 28px;
-        margin: 4px;
+        margin: 3px;
         border: none;
         border-radius: 9px;
         background: goldenrod;
@@ -1915,8 +1916,8 @@ input {
     }
 
     .navigate a {
-        font-size: 20px;
-        margin-left: 15px;
+        font-size: 18px;
+        margin-left: 10px;
     }
 
     .home {
@@ -1929,8 +1930,8 @@ input {
 
     .home-image img {
         margin: 70px 20px 30px 20px;
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         border-radius: 100%;
     }
 
