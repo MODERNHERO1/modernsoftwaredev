@@ -1824,7 +1824,7 @@ input {
 
 
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 360px) { 
     .navbar {
         height: 15vh;
     }
@@ -1885,7 +1885,7 @@ input {
         display: flex;
         flex-direction: column;
         cursor: pointer;
-        margin-left: 2px;
+        margin-left: 10px;
     }
     
     .menu-button div {
@@ -1975,7 +1975,7 @@ input {
         height: 300px;
         width: 300px; 
         display: block;
-        margin: 60px auto 0 auto;
+        margin: 0px auto 0 auto;
     }
 
     .about-text h2{
