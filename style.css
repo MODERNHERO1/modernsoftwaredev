@@ -478,7 +478,7 @@ margin: 35px 0px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 50px;
 }
 
 .about-image {
@@ -1670,12 +1670,13 @@ input {
         padding: 20px;
         min-width: 600px;
     }
-    .about-image {
-        margin: 0px;
-    }
 
-    .about-text {
-        margin: 50px 0px;
+.about-image {
+    margin: 0px 10px 100px 10px;
+}
+
+.about-text {
+    margin: 20px 20px 20px  10px;
         max-width: 600px;
     }
 
@@ -1960,11 +1961,14 @@ input {
         margin: 0px;
     }
 
-    .about-text {
-        margin: 50px 0px;
-        max-width: 360px;
-    }
+    .about-image {
+    margin: 0px 0px 100px 150px;
+}
 
+.about-text {
+    margin: 30px 10px 10px  10px;
+    max-width: 600px;
+}
 
     #services{
        display: flex;
@@ -1998,7 +2002,7 @@ input {
         text-decoration: underline;
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
-        margin-bottom: 50px;
+        margin: 50px 0px;
     }
         
     .radial-bars .radial-bar svg{
