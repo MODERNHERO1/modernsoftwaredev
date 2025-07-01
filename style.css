@@ -1750,6 +1750,14 @@ input {
         margin-top: 50px;
     }
 
+        .headings {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-top: 100px;
+    }
+
     .row {
         width: 360px;
         margin: 30px 0px;
