@@ -1952,10 +1952,12 @@ input {
     .about {
         flex-direction: column;
         padding: 20px;
-        min-width: 360px;
+        max-width: 360px;
     }
-    .about-image {
-        margin: 0px;
+    
+
+      .about-image  img{
+        height
     }
 
     .about-text {
