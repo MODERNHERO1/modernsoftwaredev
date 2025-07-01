@@ -1962,12 +1962,13 @@ input {
     }
 
     .about-image {
-    margin: 0px 0px 100px 150px;
+    margin: 0px 0px 100px 10px;
 }
 
 .about-text {
-    margin: 30px 10px 10px  10px;
+    margin: 30px 20px 10px  10px;
     max-width: 600px;
+    padding: 10px;
 }
 
     #services{
@@ -2012,11 +2013,6 @@ input {
     .radial-bar .text {
         left: 30%;
     }
-
-        
-    .sub-title span {
-        padding: 40px; 
-    }  
 
     .container {
         padding: 40px;
