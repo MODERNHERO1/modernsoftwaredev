@@ -471,42 +471,41 @@ margin: 35px 0px;
 
 /*ABOUT STARTS*/
 
-.about{
-    height: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 2.5rem;
-    margin-right: 50px;
+    padding: 50px;
 }
-.about-img img {
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: 600;
-    width: 600;
-    margin-left: 90px; 
-    padding-top: 70px; 
-    border-radius: 20px;  
+
+.about-image {
+    margin: 0px 0px 100px 150px;
 }
-.about-text h2{
-    font-size: 60px;
-    word-spacing: 10px;
+
+.about-image img {
+    height: 400px;
+    width: 400px;
+    background: white;
 }
-.about-text h2 span{
-    counter-reset: #0ef;
+
+.about-text {
+    margin: 100px 200px 100px  0px;
+    max-width: 600px;
 }
-.about-text h4{
-    font-size: 29px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.7;
-    margin: 15px 0 30px;
+
+.about-text h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 1000;
 }
-.about-text p{
-    color: aliceblue;
+
+.about-text p {
+    color: white;
     font-size: 20px;
-    line-height: 1.4;
-    margin-left: 10px;
+    font-weight: 1000;
 }
 
 #more-about-btn {
@@ -1522,25 +1521,20 @@ input {
         font-size: 35px;
     }
 
-    .about {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-    .about-image {
-        margin: 0px;
+
+    .about{
+    margin-right: 0px;
     }
 
-    .about-text {
-        margin: 50px 50px;
-        max-width: 600px;
-        margin: 0 auto;
-        margin-left: 50px;
+    .about-img img {
+        max-width: 400px;
+        margin-left: 40px;   
     }
+
+   .about-text h4 {
+        font-size: 20px;
+    }
+    
     #services{
         color:aliceblue;
         font-size: 60px;
@@ -1671,40 +1665,18 @@ input {
         margin: 0px 20px 0px 0px;
     }
 
-    .about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
-
+    .about {
+        flex-direction: row;
+        padding: 20px;
+        min-width: 600px;
     }
-    .about-img img {
-        height: 350px;
-        width: 350px; 
-        margin: 100px 50px 0px 40px;
-        padding: 30px;
+    .about-image {
+        margin: 0px;
     }
 
-    .about-text h2{
-        text-align: center;
-        font-size: 40px;
-        word-spacing: 10px;
-    }
-    .about-text h2 span{
-        counter-reset: #0ef;
-    }
-    .about-text h4{
-        font-size: 20px;
-        font-weight: 500;
-        color: #fff;
-        line-height: 1.7;
-    }
-    .about-text p{
-        position: relative;
-        color: aliceblue;
-        font-size: 20px;
-        line-height: 1.4;
-        margin-bottom: 0px;
+    .about-text {
+        margin: 50px 0px;
+        max-width: 600px;
     }
 
     #services{
@@ -1979,39 +1951,18 @@ input {
     }
 
 
-    .about{
-        display: flex;
+  .about {
         flex-direction: column;
-        align-items: center;
+        padding: 20px;
+        min-width: 360px;
+    }
+    .about-image {
+        margin: 0px;
     }
 
-    .about-img img {
-        height: 300px;
-        width: 300px; 
-        margin: 100px 50px 0px 40px;
-    }
-
-    .about-text h2{
-        font-size: 20px;
-        word-spacing: 10px;
-    }
-
-    .about-text h2 span{
-        counter-reset: #0ef;
-    }
-
-    .about-text h4{
-        font-size: 20px;
-        font-weight: 600;
-        color: #fff;
-        line-height: 1.7;
-    }
-
-    .about-text p{
-        color: aliceblue;
-        font-size: 20px;
-        line-height: 1.4;
-        margin-bottom: 10px;
+    .about-text {
+        margin: 50px 0px;
+        max-width: 360px;
     }
 
 
