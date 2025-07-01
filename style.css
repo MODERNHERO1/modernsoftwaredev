@@ -478,7 +478,7 @@ margin: 35px 0px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 0px;
 }
 
 .about-image {
@@ -535,7 +535,7 @@ margin: 35px 0px;
 .sub-title{
     text-align: center;
     font-size: 60px;
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .sub-title span {
@@ -1523,7 +1523,7 @@ input {
 
 
     .about{
-    margin-right: 0px;
+    margin-right: 10px;
     }
 
     .about-img img {
@@ -1688,11 +1688,11 @@ input {
     .sub-title{
         text-align: center;
         font-size: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     } 
 
     .sub-title span {
-        padding: 40px; 
+        padding: 0px; 
     }  
 
     .container {
@@ -1954,7 +1954,7 @@ input {
   .about {
         flex-direction: column;
         padding: 20px;
-        min-width: 360px;
+        max-width: 360px;
     }
     .about-image {
         margin: 0px;
