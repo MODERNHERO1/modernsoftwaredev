@@ -1953,9 +1953,6 @@ input {
         padding: 20px;
         max-width: 360px;
     }
-    .about-image {
-        margin: 0px;
-    }
 
     .about-image {
     margin: 0px 0px 100px 10px;
@@ -2000,6 +1997,14 @@ input {
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
         margin: 50px 0px;
+    }
+
+        .headings {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-top: 50px;
     }
         
     .radial-bars .radial-bar svg{
