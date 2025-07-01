@@ -1527,8 +1527,8 @@ input {
     }
 
     .about-img img {
-        max-width: 400px;
-        margin-left: 40px;   
+        max-width: 360px;
+        margin-left: 0px;   
     }
 
    .about-text h4 {
@@ -1690,10 +1690,6 @@ input {
         text-align: center;
         font-size: 40px;
         padding-bottom: 0px;
-    } 
-
-    .sub-title span {
-        padding: 0px; 
     }  
 
     .container {
